@@ -6,7 +6,7 @@ today_date = datetime.today().strftime('%d.%m.%Y')
 name_file = f'lesson_2/money_by_title_and_status_{today_date}.csv'
 
 # считываем файл
-df = pd.read_csv('lesson_2/lesson_1_data.csv',
+df = pd.read_csv('lesson_2/lesson_2_data.csv',
                  encoding='windows-1251', sep=';', parse_dates=['Дата создания', 'Дата оплаты'])
 
 # переименовываем колонки
